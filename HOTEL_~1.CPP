@@ -38,7 +38,7 @@ void hotel::main_menu()
 		    break;
 	    case 3: rooms();
 		    break;
-	    case 4: break;
+	    case 4: exit(0);
 	    default:
 		    {
 		      cout<<"\n\n\t\t\tWrong choice!!!";
